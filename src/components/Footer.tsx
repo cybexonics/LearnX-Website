@@ -66,5 +66,4 @@ Dist: Pune, Maharashtra, India 413102
     </footer>
   );
 };
-
 export default Footer;
