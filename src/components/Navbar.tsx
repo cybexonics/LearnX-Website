@@ -32,6 +32,9 @@ const Navbar = () => {
           <Button variant="ghost" asChild>
             <Link to="/#faq">FAQ</Link>
           </Button>
+          <Button variant="ghost" asChild>
+            <Link to="/contact">Contact Us</Link>
+          </Button>
           <Button
             variant="default"
             className="bg-teachGrow-primary text-white hover:bg-teachGrow-primary/90"
@@ -62,6 +65,9 @@ const Navbar = () => {
             <Button variant="ghost" asChild onClick={toggleMenu}>
               <Link to="/#faq" className="w-full text-left">FAQ</Link>
             </Button>
+            <Button variant="ghost" asChild>
+            <Link to="/contact" className="w-full text-left">Contact Us</Link>
+          </Button>
             <Button
               variant="default"
               className="bg-teachGrow-primary text-white hover:bg-teachGrow-primary/90 w-full"
