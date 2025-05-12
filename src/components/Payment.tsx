@@ -9,18 +9,19 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import RazorpayEmbedButton from "@/components/PaymentButton";
 import { useToast } from "@/components/ui/use-toast";
 
 // Function to load Razorpay script
-const loadRazorpayScript = () => {
-  return new Promise((resolve) => {
-    const script = document.createElement("script");
-    script.src = "https://checkout.razorpay.com/v1/checkout.js";
-    script.onload = () => resolve(true);
-    script.onerror = () => resolve(false);
-    document.body.appendChild(script);
-  });
-};
+// const loadRazorpayScript = () => {
+//   return new Promise((resolve) => {
+//     const script = document.createElement("script");
+//     script.src = "https://checkout.razorpay.com/v1/checkout.js";
+//     script.onload = () => resolve(true);
+//     script.onerror = () => resolve(false);
+//     document.body.appendChild(script);
+//   });
+// };
 
 const Payment = () => {
   const [loading, setLoading] = useState(false);
@@ -42,7 +43,7 @@ const Payment = () => {
 
     try {
       const options = {
-  key: "rzp_test_geQDVGSnt95quu",
+  key: "rzp_geQDVGSnt95quu",
   amount: 99900,
   currency: "INR",
   name: "LearnX",
@@ -119,13 +120,14 @@ rzp.open();
         </div>
       </CardContent>
       <CardFooter className="flex justify-end">
-        <Button
+        {/*<Button
           onClick={handlePayment}
           className="bg-teachGrow-primary hover:bg-teachGrow-primary/90 w-full"
           disabled={loading}
         >
           {loading ? "Processing..." : "Pay ₹999 with Razorpay"}
-        </Button>
+        </Button>*/}
+        <RazorpayEmbedButton/>
       </CardFooter>
     </Card>
   );
