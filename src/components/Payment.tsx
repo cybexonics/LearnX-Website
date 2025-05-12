@@ -122,5 +122,4 @@ rzp.open();
     </Card>
   );
 };
-
 export default Payment;

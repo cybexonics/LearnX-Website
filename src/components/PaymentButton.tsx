@@ -17,4 +17,5 @@ const RazorpayEmbedButton = () => {
 
   return <form ref={formRef}></form>;
 };
+
 export default RazorpayEmbedButton;
