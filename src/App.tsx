@@ -10,7 +10,8 @@ import PaymentPage from "./pages/PaymentPage";
 import PaymentSuccessPage from "./pages/PaymentSuccessPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import NotFound from "./pages/NotFound";
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
+import DataDeletionPage from "./pages/DataDeletionPage"
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/payment-success" element={<PaymentSuccessPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/data-deletion" element={<DataDeletionPage/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

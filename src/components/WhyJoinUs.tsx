@@ -1,13 +1,13 @@
 
 import React from "react";
-import { 
-  CreditCard, Users, MonitorSmartphone, Layers, Award
+import {
+  CreditCard, Link as LinkIcon, Shield, Users, Award
 } from "lucide-react";
 
-const FeatureCard = ({ icon, title, description }: { 
-  icon: React.ReactNode; 
-  title: string; 
-  description: string 
+const FeatureCard = ({ icon, title, description }: {
+  icon: React.ReactNode;
+  title: string;
+  description: string
 }) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
@@ -23,29 +23,29 @@ const FeatureCard = ({ icon, title, description }: {
 const WhyJoinUs = () => {
   const features = [
     {
-      icon: <CreditCard size={24} />,
-      title: "Keep 90% of Earnings",
-      description: "Retain 90% of all revenue from student subscriptions, with transparent payment tracking.",
+      icon: <LinkIcon size={24} />,
+      title: "No More Copy-Paste Hassles",
+      description: "Forget about copying meeting links and WhatsApp confusion. Create professional classes with just one click and share instantly.",
     },
     {
-      icon: <MonitorSmartphone size={24} />,
-      title: "Flexible Teaching Options",
-      description: "Teach live classes or upload pre-recorded content - choose what works best for you.",
+      icon: <CreditCard size={24} />,
+      title: "Say Goodbye to Payment Chasing",
+      description: "Never chase students for payments again. Our platform ensures students pay first, with 90% transferred directly to your account.",
+    },
+    {
+      icon: <Shield size={24} />,
+      title: "Secure and Private Classes",
+      description: "Every class is encrypted and protected from unwanted sharing. Only registered, paying students can access your teaching content.",
     },
     {
       icon: <Users size={24} />,
-      title: "Professional Profile",
-      description: "Get your own customizable teacher profile to showcase your expertise and courses.",
-    },
-    {
-      icon: <Layers size={24} />,
-      title: "Simplified Technology",
-      description: "We handle all the technical aspects so you can focus solely on creating quality content.",
+      title: "We Bring Students to You",
+      description: "Join for just ₹999/year and we'll actively promote your profile to help you acquire more students without additional marketing costs.",
     },
     {
       icon: <Award size={24} />,
-      title: "Early Access Benefits",
-      description: "Join now and receive the exclusive 'Featured Teacher' badge to stand out to students.",
+      title: "Build Your Personal Brand",
+      description: "Establish yourself as an authority in your field. Grow your following, showcase your expertise, and build credibility that lasts.",
     },
   ];
 
@@ -53,9 +53,9 @@ const WhyJoinUs = () => {
     <section id="features" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-teachGrow-dark mb-4">Why Join Us</h2>
+          <h2 className="text-3xl font-bold text-teachGrow-dark mb-4">Why Professional Educators Choose Learn X</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Learn X provides everything educators need to build their online teaching business without the technical headaches.
+            Focus on what you do best—teaching—while Learn X handles the technical, administrative, and marketing aspects of your online teaching business.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

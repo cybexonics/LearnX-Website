@@ -10,28 +10,28 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "What subjects can I teach?",
-      answer: "You can teach any subject you're knowledgeable in—school subjects, college courses, coding, languages, hobbies, or professional skills. There are no restrictions on the topics you can offer.",
+      question: "How does Learn X simplify my online teaching workflow?",
+      answer: "Learn X eliminates the chaos of copy-pasted meeting links and WhatsApp groups with a professional, one-click class setup system. Students access your classes through a secure portal after payment, ensuring only paying students can join your lessons.",
     },
     {
-      question: "Can I upload my own videos?",
-      answer: "Yes, our platform supports both live teaching sessions and pre-recorded content. You can upload videos that you've created, conduct live classes, or offer a mix of both teaching styles.",
+      question: "How does the payment system work?",
+      answer: "We handle all payment collection for you. Students must pay before accessing your classes, and you receive 90% of all fees directly to your bank account. No more awkward payment reminders or manual tracking—we handle it all.",
     },
     {
-      question: "How do I get paid?",
-      answer: "We process payments via direct bank transfer. Earnings are calculated every 15 days and transferred to your registered bank account or UPI ID after reaching the minimum threshold.",
+      question: "How secure are the classes on Learn X?",
+      answer: "All classes are encrypted and protected from unauthorized sharing. Unlike mainstream meeting platforms, our system prevents link sharing and ensures only registered, paying students can access your content, maintaining the exclusivity of your teaching.",
     },
     {
-      question: "What is the commission structure?",
-      answer: "You keep 90% of all student subscription fees, while we retain just 10% as a platform fee. Early registrants get 0% commission for the first month as part of our special offer.",
+      question: "How does Learn X help me get more students?",
+      answer: "When you register for ₹999/year, your profile becomes part of our marketplace where potential students can discover you. We actively promote teachers through our marketing efforts, social media, and search engine optimization—bringing students to you without additional marketing costs.",
     },
     {
-      question: "What technical equipment do I need?",
-      answer: "For basic teaching, you'll need a computer with a webcam and reliable internet connection. For higher quality videos, we recommend a good microphone and adequate lighting.",
+      question: "How can I build my personal brand with Learn X?",
+      answer: "Our platform allows you to create a comprehensive professional profile, showcase your expertise through course portfolios, collect and display student testimonials, and build a loyal following. As your student base grows, so does your reputation as an authority in your field.",
     },
     {
-      question: "Can I set my own prices?",
-      answer: "Yes, you have complete control over your course pricing within our recommended ranges based on your subject and experience level.",
+      question: "Is the ₹999 registration fee refundable?",
+      answer: "The annual registration fee of ₹999 is non-refundable, but it provides you access to all platform features for a full year, including student acquisition support, secure class hosting, payment processing, and personal brand building tools.",
     },
   ];
 
@@ -39,9 +39,9 @@ const FAQ = () => {
     <section id="faq" className="py-16 bg-white">
       <div className="max-w-3xl mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-teachGrow-dark mb-4">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold text-teachGrow-dark mb-4">Common Questions About Learn X</h2>
           <p className="text-lg text-gray-600">
-            Get answers to common questions about teaching on our platform.
+            Everything you need to know about transforming your teaching career with our platform.
           </p>
         </div>
         <Accordion type="single" collapsible className="w-full">

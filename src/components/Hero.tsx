@@ -10,63 +10,62 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="lg:w-1/2 animate-slide-up">
             <h1 className="text-3xl md:text-5xl font-bold leading-tight text-teachGrow-dark mb-6">
-              Teach Online. Earn More.{" "}
-              <span className="text-teachGrow-primary">Grow Your Brand.</span>
+              Teach Professionally Online. <span className="text-teachGrow-primary">Get Paid On Time.</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8">
-              Join Learn X for Just ₹999/Year and keep 90% of your earnings. Focus on teaching while we handle the technology.
+              Join Learn X and transform your online teaching experience. No more payment hassles, link sharing confusion, or student acquisition struggles.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-teachGrow-primary hover:bg-teachGrow-primary/90 text-white text-lg px-8"
                 asChild
               >
-                <Link to="/register">Register Now</Link>
+                <Link to="/register">Start Teaching</Link>
               </Button>
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 className="border-teachGrow-primary text-teachGrow-primary hover:bg-teachGrow-primary/10"
                 asChild
               >
-                <Link to="/#how-it-works">Learn More</Link>
+                <Link to="/#how-it-works">See How It Works</Link>
               </Button>
             </div>
           </div>
           <div className="lg:w-1/2 animate-fade-in">
             <div className="bg-white rounded-lg shadow-xl p-8 border border-gray-200">
               <div className="bg-teachGrow-primary text-white px-4 py-2 rounded-t-md -mt-12 mb-6 inline-block">
-                Limited Offer
+                Limited Time Offer
               </div>
-              <h2 className="text-2xl font-bold mb-4">First 20 Teachers Get:</h2>
+              <h2 className="text-2xl font-bold mb-4">Join for Just ₹999/Year</h2>
               <ul className="space-y-3 text-lg">
                 <li className="flex items-start">
                   <span className="text-teachGrow-secondary font-bold mr-2">✓</span>
-                  Priority listing in search results
+                  Keep 90% of all student fees
                 </li>
                 <li className="flex items-start">
                   <span className="text-teachGrow-secondary font-bold mr-2">✓</span>
-                  1-on-1 onboarding support session
+                  One-click professional class setup
                 </li>
                 <li className="flex items-start">
                   <span className="text-teachGrow-secondary font-bold mr-2">✓</span>
-                  0% commission for the first month
+                  Automated payment collection
                 </li>
                 <li className="flex items-start">
                   <span className="text-teachGrow-secondary font-bold mr-2">✓</span>
-                  "Featured Teacher" badge on your profile
+                  Secure, private teaching environment
                 </li>
               </ul>
               <div className="mt-6">
                 <p className="text-lg font-semibold text-center mb-4">
-                  Only ₹999/year
+                  First 20 teachers get special features
                 </p>
-                <Button 
+                <Button
                   className="w-full bg-teachGrow-secondary hover:bg-teachGrow-secondary/90 text-white text-lg"
                   asChild
                 >
-                  <Link to="/register">Register Now</Link>
+                  <Link to="/register">Join Now</Link>
                 </Button>
               </div>
             </div>
