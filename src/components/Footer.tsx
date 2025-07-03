@@ -59,7 +59,7 @@ Dist: Pune, Maharashtra, India 413102
               rel="noopener noreferrer"
               className="text-white font-medium hover:underline"
             >
-              Cybexonics IT Consultants Pvt. Ltd.
+              Cybexonics IT Consultants Pvt.Ltd.
             </a>
           </p>
         </div>
