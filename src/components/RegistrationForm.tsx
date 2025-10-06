@@ -148,16 +148,15 @@ const RegistrationForm = () => {
         demoVideo: demoVideoUrl || null,
       };
 
-      // 👉 Send to backend
-      const response = await fetch("https://learnx-backend-ot3j.onrender.com/auth/signup", {
-      // const response = await fetch("http://localhost:5050/api/auth/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(completeData),
-      });
-
+    // 👉 Send to backend
+const response = await fetch("https://learnx-backend-h6h0.onrender.com/api/auth/signup", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(completeData),
+});
+      
       const result = await response.json();
 
       if (!response.ok) {
