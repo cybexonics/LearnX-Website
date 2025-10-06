@@ -149,13 +149,13 @@ const RegistrationForm = () => {
       };
 
     // 👉 Send to backend
-const response = await fetch("https://learnx-backend-h6h0.onrender.com/api/auth/signup", {
-  method: "POST",
-  headers: {
+   const response = await fetch("https://learnx-backend-h6h0.onrender.com/api/auth/signup", {
+   method: "POST",
+   headers: {
     "Content-Type": "application/json",
-  },
-  body: JSON.stringify(completeData),
-});
+   },
+   body: JSON.stringify(completeData),
+   });
       
       const result = await response.json();
 
