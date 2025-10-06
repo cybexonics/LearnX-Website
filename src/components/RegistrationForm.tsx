@@ -149,7 +149,7 @@ const RegistrationForm = () => {
       };
 
     // 👉 Send to backend
-   const response = await fetch("https://learnx-backend-h6h0.onrender.com/api/auth/signup", {
+const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/auth/signup`, {
    method: "POST",
    headers: {
     "Content-Type": "application/json",
